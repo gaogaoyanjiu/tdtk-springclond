@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.springframework.beans.factory.annotation.Autowired" />
+    </list>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fastdfs-client-java/pom.xml" />
+        <option value="$PROJECT_DIR$/tdtk-cloud-fastdfs-client/pom.xml" />
+        <option value="$PROJECT_DIR$/tdtk-cloud-eureka-client-config-provider-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/tdtk-cloud-eureka-zuul-getway-9527/pom.xml" />
+        <option value="$PROJECT_DIR$/tdtk-cloud-eureka-hystrix-dashboard9001/pom.xml" />
+        <option value="$PROJECT_DIR$/tdtk-cloud-eureka-hystrix-client-provider-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/tdtk-cloud-eureka-config-server-3344/pom.xml" />
+        <option value="$PROJECT_DIR$/tdtk-cloud-eureka-hystrix-dashboard-9001/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

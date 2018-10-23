@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: tdtk-cloud-config-dept-client

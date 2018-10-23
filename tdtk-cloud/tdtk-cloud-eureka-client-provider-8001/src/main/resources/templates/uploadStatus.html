@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h1>Spring Boot - Upload Status</h1>
+
+<div th:if="${message}">
+    <h2 th:text="${message}"/>
+</div>
+
+<div th:if="${path}">
+    <h2 th:text="${path}"/>
+    file path url:
+    <a th:href="${path}" target="_blank">连接</a>
+</div>
+
+</body>
+</html>

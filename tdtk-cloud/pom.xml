@@ -1,0 +1,139 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.tdtk</groupId>
+    <artifactId>tdtk-cloud</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+
+    <name>SpringCloud框架父工程</name>
+    <description>
+        SpringCloud框架的总结性DEMO：
+        1、eureka注册中心
+        2、feign负载均衡
+        3、ribbon负载均衡
+        4、dashboard 监控
+        5、hystrix 熔断器
+        6、config 分布式配置中心
+        7、zuul 路由
+
+    </description>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <junit.version>4.12</junit.version>
+        <log4j.version>1.2.17</log4j.version>
+        <lombok.version>1.16.18</lombok.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Dalston.SR1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.5.9.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <!--<version>8.0.12</version>-->
+                <version>5.0.4</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.0.31</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>1.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>1.2.3</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.csource</groupId>
+                <artifactId>fastdfs-client-java</artifactId>
+                <version>1.27-SNAPSHOT</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+
+
+    <build>
+        <finalName>tdtk-cloud</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <delimit>$</delimit>
+                    </delimiters>
+                </configuration>
+            </plugin>
+
+
+        </plugins>
+    </build>
+
+
+    <modules>
+        <module>tdtk-cloud-api</module>
+        <module>tdtk-cloud-eureka-client-provider-8002</module>
+        <module>tdtk-cloud-eureka-client-provider-8003</module>
+        <module>tdtk-cloud-eureka-client-provider-8001</module>
+        <module>tdtk-cloud-eureka-client-consumer-80</module>
+        <module>tdtk-cloud-eureka-server-7001</module>
+        <module>tdtk-cloud-eureka-server-7002</module>
+        <module>tdtk-cloud-eureka-server-7003</module>
+        <module>tdtk-cloud-eureka-client-consumer-80-feign</module>
+        <module>tdtk-cloud-eureka-hystrix-client-provider-8001</module>
+        <module>tdtk-cloud-eureka-hystrix-dashboard-9001</module>
+        <module>tdtk-cloud-eureka-zuul-getway-9527</module>
+
+        <module>tdtk-cloud-eureka-config-server-3344</module>
+        <module>tdtk-cloud-eureka-config-client-3355</module>
+        <module>tdtk-cloud-eureka-config-server-7001</module>
+        <module>tdtk-cloud-eureka-config-client-8001</module>
+
+
+    </modules>
+</project>

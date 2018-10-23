@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tdtk-cloud-api" />
+        <module name="tdtk-cloud-eureka-client-consumer-80" />
+        <module name="tdtk-cloud-eureka-client-consumer-80-feign" />
+        <module name="tdtk-cloud-eureka-client-provider-8001" />
+        <module name="tdtk-cloud-eureka-client-provider-8002" />
+        <module name="tdtk-cloud-eureka-client-provider-8003" />
+        <module name="tdtk-cloud-eureka-config-client-3355" />
+        <module name="tdtk-cloud-eureka-config-client-8001" />
+        <module name="tdtk-cloud-eureka-config-server-3344" />
+        <module name="tdtk-cloud-eureka-config-server-7001" />
+        <module name="tdtk-cloud-eureka-hystrix-client-provider-8001" />
+        <module name="tdtk-cloud-eureka-hystrix-dashboard-9001" />
+        <module name="tdtk-cloud-eureka-server-7001" />
+        <module name="tdtk-cloud-eureka-server-7002" />
+        <module name="tdtk-cloud-eureka-server-7003" />
+        <module name="tdtk-cloud-eureka-zuul-getway-9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tdtk-cloud" target="1.8" />
+      <module name="tdtk-cloud-api" target="1.8" />
+      <module name="tdtk-cloud-eureka-client-consumer-80" target="1.8" />
+      <module name="tdtk-cloud-eureka-client-consumer-80-feign" target="1.8" />
+      <module name="tdtk-cloud-eureka-client-hystrix-client-provider-8001" target="1.8" />
+      <module name="tdtk-cloud-eureka-client-provider-8001" target="1.8" />
+      <module name="tdtk-cloud-eureka-client-provider-8002" target="1.8" />
+      <module name="tdtk-cloud-eureka-client-provider-8003" target="1.8" />
+      <module name="tdtk-cloud-eureka-config-8001" target="1.8" />
+      <module name="tdtk-cloud-eureka-config-client-3355" target="1.8" />
+      <module name="tdtk-cloud-eureka-config-client-7001" target="1.8" />
+      <module name="tdtk-cloud-eureka-config-client-8001" target="1.8" />
+      <module name="tdtk-cloud-eureka-config-client-provider-8001" target="1.8" />
+      <module name="tdtk-cloud-eureka-config-server-3344" target="1.8" />
+      <module name="tdtk-cloud-eureka-config-server-7001" target="1.8" />
+      <module name="tdtk-cloud-eureka-hystrix-client-provider-8001" target="1.8" />
+      <module name="tdtk-cloud-eureka-hystrix-dashboard-9001" target="1.8" />
+      <module name="tdtk-cloud-eureka-server-7001" target="1.8" />
+      <module name="tdtk-cloud-eureka-server-7002" target="1.8" />
+      <module name="tdtk-cloud-eureka-server-7003" target="1.8" />
+      <module name="tdtk-cloud-eureka-server-config-3344" target="1.8" />
+      <module name="tdtk-cloud-eureka-zuul-getway-9527" target="1.8" />
+      <module name="tdtk-cloud-fastdfs-client" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

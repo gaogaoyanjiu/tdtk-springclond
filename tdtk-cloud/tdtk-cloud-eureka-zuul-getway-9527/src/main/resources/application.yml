@@ -1,0 +1,30 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: tdtk-cloud-zuul-gateway
+
+zuul:
+  prefix: /tdtk
+  ignored-services: "*"
+  routes:
+    mydept.serviceId: tdtk-cloud-dept
+    mydept.path: /mydept/**
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+
+info:
+  app.name: tdtk-cloud
+  company.name: www.tdtk.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+

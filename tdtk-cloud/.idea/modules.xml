@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud.iml" filepath="$PROJECT_DIR$/tdtk-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-api/tdtk-cloud-api.iml" filepath="$PROJECT_DIR$/tdtk-cloud-api/tdtk-cloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-client-consumer-80/tdtk-cloud-eureka-client-consumer-80.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-client-consumer-80/tdtk-cloud-eureka-client-consumer-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-client-consumer-80-feign/tdtk-cloud-eureka-client-consumer-80-feign.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-client-consumer-80-feign/tdtk-cloud-eureka-client-consumer-80-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-client-provider-8001/tdtk-cloud-eureka-client-provider-8001.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-client-provider-8001/tdtk-cloud-eureka-client-provider-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-client-provider-8002/tdtk-cloud-eureka-client-provider-8002.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-client-provider-8002/tdtk-cloud-eureka-client-provider-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-client-provider-8003/tdtk-cloud-eureka-client-provider-8003.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-client-provider-8003/tdtk-cloud-eureka-client-provider-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-config-client-3355/tdtk-cloud-eureka-config-client-3355.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-config-client-3355/tdtk-cloud-eureka-config-client-3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-config-client-8001/tdtk-cloud-eureka-config-client-8001.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-config-client-8001/tdtk-cloud-eureka-config-client-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-config-server-3344/tdtk-cloud-eureka-config-server-3344.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-config-server-3344/tdtk-cloud-eureka-config-server-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-config-server-7001/tdtk-cloud-eureka-config-server-7001.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-config-server-7001/tdtk-cloud-eureka-config-server-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-hystrix-client-provider-8001/tdtk-cloud-eureka-hystrix-client-provider-8001.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-hystrix-client-provider-8001/tdtk-cloud-eureka-hystrix-client-provider-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-hystrix-dashboard-9001/tdtk-cloud-eureka-hystrix-dashboard-9001.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-hystrix-dashboard-9001/tdtk-cloud-eureka-hystrix-dashboard-9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-server-7001/tdtk-cloud-eureka-server-7001.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-server-7001/tdtk-cloud-eureka-server-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-server-7002/tdtk-cloud-eureka-server-7002.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-server-7002/tdtk-cloud-eureka-server-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-server-7003/tdtk-cloud-eureka-server-7003.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-server-7003/tdtk-cloud-eureka-server-7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdtk-cloud-eureka-zuul-getway-9527/tdtk-cloud-eureka-zuul-getway-9527.iml" filepath="$PROJECT_DIR$/tdtk-cloud-eureka-zuul-getway-9527/tdtk-cloud-eureka-zuul-getway-9527.iml" />
+    </modules>
+  </component>
+</project>
